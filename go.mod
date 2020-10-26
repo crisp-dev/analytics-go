@@ -1,4 +1,4 @@
-module github.com/segmentio/analytics-go
+module github.com/crisp-dev/analytics-go
 
 go 1.14
 
