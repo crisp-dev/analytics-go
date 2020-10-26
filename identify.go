@@ -14,6 +14,7 @@ type Identify struct {
 	MessageId    string       `json:"messageId,omitempty"`
 	AnonymousId  string       `json:"anonymousId,omitempty"`
 	UserId       string       `json:"userId,omitempty"`
+	Email        string       `json:"email,omitempty"`
 	Timestamp    time.Time    `json:"timestamp,omitempty"`
 	Context      *Context     `json:"context,omitempty"`
 	Traits       Traits       `json:"traits,omitempty"`
